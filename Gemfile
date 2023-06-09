@@ -97,3 +97,5 @@ gem 'dartsass-rails', '~> 0.4.1'
 gem 'sassc-rails'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
+
+gem 'bundler', '~> 2.2'
