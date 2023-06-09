@@ -8,6 +8,7 @@ ruby '3.2.1'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '7.0.4.2'
 
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
@@ -97,5 +98,3 @@ gem 'dartsass-rails', '~> 0.4.1'
 gem 'sassc-rails'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
-
-gem 'bundler', '~> 2.2'

@@ -334,7 +334,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bundler (~> 2.2)
   capybara
   dartsass-rails (~> 0.4.1)
   debug
