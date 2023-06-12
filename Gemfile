@@ -93,6 +93,6 @@ gem 'friendly_id', '~> 5.5'
 
 gem 'dartsass-rails', '~> 0.4.1'
 
-# gem 'sassc-rails'
+gem 'sassc-rails'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
