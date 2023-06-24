@@ -68,13 +68,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { :host => 'myband.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-    address: 'smtp.mail.yahoo.co.jp',
-    port: 465,
-    domain: 'smtp.mail.yahoo.co.jp',
-    user_name: ENV['MAIL_ADDRESS'],
-    password: ENV['PASSWORD'],
-    authentication: 'plain',
-    enable_starttls_auto: true
+    :user_name      => ENV['SENDGRID_USERNAME'],
+    :password       => ENV['SENDGRID_PASSWORD'],
+    :domain => "heroku.com",
+    :address => "smtp.sendgrid.net",
+    :port => 587,
+    :authentication => :plain,
+    :enable_starttls_auto => true
   }
 
   # Ignore bad email addresses and do not raise email delivery errors.
